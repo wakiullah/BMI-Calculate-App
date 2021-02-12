@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI APP</title>
+    <link rel="stylesheet" href="./style/Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./style/sass/style.css">
+</head>
+
+<body>
+    <div class="bmi-app mx-auto text-center">
+        <h1>BMI APP</h1>
+        <p class="bmi-discription"> Body Mass Index is a helth calculation using a person’s height and weight</p>
+        <div class="bmi-form-div active text-start">
+            <form action="" class="text-capitalize bmi-form">
+                <label for="">enter your height (cm)</label>
+                <input type="number" id="height">
+                <label for="">enter your weight (kg)</label>
+                <input type="number" name="" id="weight">
+                <button class="calculate-btn" type="submit">Calculate</button>
+            </form>
+        </div>
+        <div class="result inactive">
+            <h2 class="congrates">Congratulations</h2>
+            <p>Your BMI Number is</p>
+            <h1 class="bmi-number"></h1>
+            <p class="bmi-details">You are <span class="bmi-category"></span></p>
+            <button class="tryAgain">Try Again</button>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
